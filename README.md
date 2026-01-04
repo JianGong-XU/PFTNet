@@ -1,10 +1,23 @@
 # PFTNet: Progressive Focused Transformer Network for UAV Image Dehazing
 
+**Jiangong Xu**, **Weibao Xue**, **Jun Pan**, **Mi Wang**
+
 This repository provides the **official PyTorch implementation** of **PFTNet (Progressive Focused Transformer Network)**, a Transformer-based image restoration framework designed for **UAV aerial image dehazing under spatially non-uniform atmospheric degradation**.
 
 Unlike conventional CNN- or Transformer-based dehazing methods that rely on static attention patterns or implicit degradation modeling, PFTNet introduces a **progressive attention focusing paradigm** and explicitly integrates **degradation-aware modeling** and **deformable sparse attention**, achieving improved restoration fidelity and geometric consistency in challenging UAV scenarios.
 
 ---
+
+<p align="center">
+  <img src="images/Fig_1.png" width="90%">
+</p>
+
+<p align="center">
+  <em>Figure 1. Overall architecture of the proposed PFTNet, illustrating the progressive focused attention mechanism and the integration of degradation-aware and deformable sparse attention modules.</em>
+</p>
+
+---
+
 
 ## 🔍 Overview
 
